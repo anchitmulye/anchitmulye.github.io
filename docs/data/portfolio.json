@@ -25,7 +25,8 @@
     "contact":      "Contact"
   },
   "footer": {
-    "copy": "Last Modified: 05-10-2026"
+    "copy": "",
+    "lastUpdated": "Oct 2026"
   },
   "hero": {
     "name": "Anchit Mulye",

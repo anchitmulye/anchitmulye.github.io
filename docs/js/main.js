@@ -38,8 +38,11 @@ const ICONS = {
     buildContact(data.contact);
     document.getElementById('footerName').textContent = data.hero.name;
     const footerCopy = document.getElementById('footerCopy');
-    if (footerCopy && data.footer?.copy) {
-      footerCopy.innerHTML = `${data.footer.copy} &mdash; <span id="year"></span>`;
+    if (footerCopy) {
+      const year = new Date().getFullYear();
+      const updated = data.footer?.lastUpdated ? ` &mdash; Updated ${data.footer.lastUpdated} ` : '';
+      const copy = data.footer?.copy ? `${data.footer.copy} &mdash; ` : '';
+      footerCopy.innerHTML = `${copy}${year}${updated}`;
       document.getElementById('year').textContent = new Date().getFullYear();
     }
     startTyping(data.hero.roles);
