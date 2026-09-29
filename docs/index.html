@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anchit Mulye - AI/ML Engineer</title>
+  <meta name="description" content="Software Engineer specialising in EdgeAI, Computer Vision, and Machine Learning." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Neural network canvas background -->
+  <canvas id="neuralCanvas"></canvas>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a class="nav__logo" href="#hero">
+        <span class="nav__logo-bracket">[</span>
+        <span class="nav__logo-name" id="navName">AM</span>
+        <span class="nav__logo-bracket">]</span>
+      </a>
+      <ul class="nav__links" id="navLinks"></ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile overlay -->
+  <div class="mobile-overlay" id="mobileOverlay">
+    <ul class="mobile-overlay__links" id="mobileNavLinks"></ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__content container">
+      <p class="hero__greeting reveal">Hello, I'm</p>
+      <h1 class="hero__name reveal" id="heroName">Anchit Mulye</h1>
+      <div class="hero__roles reveal">
+        <span class="hero__role-prefix">_</span>
+        <span class="hero__role-text" id="heroRole">EdgeAI Engineer</span>
+        <span class="hero__cursor">|</span>
+      </div>
+      <p class="hero__tagline reveal" id="heroTagline">Bridging the gap between academic ML and practical edge deployment.</p>
+      <div class="hero__cta reveal">
+        <a href="#projects" class="btn btn--primary" id="heroCta">View My Work</a>
+        <a href="#contact" class="btn btn--outline" id="heroCta2">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span class="scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__label" id="labelAbout"></div>
+      <div class="about__layout">
+        <div class="about__photo-wrap" id="aboutPhotoWrap" hidden>
+          <img class="about__photo" id="aboutPhoto" src="" alt="Anchit Mulye" />
+        </div>
+        <div class="about__grid">
+          <div class="about__text" id="aboutText"><p>Loading...</p></div>
+          <div class="about__stats-grid" id="aboutStats"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section section--tinted" id="experience">
+    <div class="container">
+      <div class="section__label" id="labelExperience"></div>
+      <div class="timeline" id="experienceList"></div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section__label" id="labelEducation"></div>
+      <div class="timeline" id="educationList"></div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section--tinted" id="skills">
+    <div class="container">
+      <div class="section__label" id="labelSkills"></div>
+      <!-- Research Areas sub-section -->
+      <div class="research-areas" id="researchAreas" hidden>
+        <p class="research-areas__heading">Research Areas</p>
+        <ul class="research-areas__list" id="researchAreasList"></ul>
+      </div>
+      <!-- Technical skills -->
+      <div class="skills-grid" id="skillsGrid"></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section__label" id="labelProjects"></div>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section class="section section--tinted" id="publications">
+    <div class="container">
+      <div class="section__label" id="labelPublications"></div>
+      <div class="papers-list" id="papersList"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section__label">Contact</div>
+      <div class="contact__inner">
+        <h2 class="contact__heading" id="contactHeading"></h2>
+        <p class="contact__sub" id="contactSub"></p>
+        <div class="contact__links" id="contactLinks"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__name" id="footerName">Anchit Mulye</span>
+      <span class="footer__copy" id="footerCopy"><span id="year"></span></span>
+      <span class="footer__credit">Designed & built by <a href="https://github.com/Amnivex" target="_blank">Amnivex</a></span>
+    </div>
+  </footer>
+
+  <script src="js/neural.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

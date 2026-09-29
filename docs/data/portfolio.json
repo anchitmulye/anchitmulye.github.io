@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "Anchit Mulye — Senior ML Systems Engineer",
+    "description": "Senior ML Systems Engineer specialising in EdgeAI, ML Compilers, ONNX, and model compression for edge hardware."
+  },
+  "nav": {
+    "logo": "AM",
+    "links": [
+      { "label": "About",        "href": "#about" },
+      { "label": "Experience",   "href": "#experience" },
+      { "label": "Education",    "href": "#education" },
+      { "label": "Skills",       "href": "#skills" },
+      { "label": "Projects",     "href": "#projects" },
+      { "label": "Papers",       "href": "#publications" },
+      { "label": "Contact",      "href": "#contact" }
+    ]
+  },
+  "sections": {
+    "about":        "About",
+    "experience":   "Experience",
+    "education":    "Education",
+    "skills":       "Skills",
+    "projects":     "Projects",
+    "publications": "Publications",
+    "contact":      "Contact"
+  },
+  "footer": {
+    "copy": "Last Modified: 05-10-2026"
+  },
+  "hero": {
+    "name": "Anchit Mulye",
+    "roles": [
+      "Senior ML Systems Engineer",
+      "Machine Learning Engineer",
+      "ML Compiler Developer",
+      "EdgeAI Engineer",
+      "Computer Vision Researcher"
+    ],
+    "tagline": "Building the systems that make AI run faster, smaller, and smarter — at the edge.",
+    "cta":  { "label": "View My Work", "href": "#projects" },
+    "cta2": { "label": "Get In Touch",  "href": "#contact" }
+  },
+  "about": {
+    "photo": "images/photo.png",
+    "bio": [
+      "I'm a Senior ML Systems Engineer focused on making AI models run efficiently on edge hardware — from server GPUs to edge devices.",
+      "I bridge the gap between research and production by transforming heavy models into fast, lightweight, edge-deployable AI. Specialised in ONNX, hardware-aware NAS, and NPU optimisation.",
+      "3 publications, 35+ citations, and open-source EdgeAI tooling."
+    ],
+    "stats": [
+      { "value": "35+",  "label": "Citations" },
+      { "value": "3",    "label": "Publications" },
+      { "value": "65%",  "label": "Param Reduction (H3DNAS)" },
+      { "value": "1.99x","label": "Speedup on Jetson" }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Jio",
+      "logo": "images/jio_logo.jpeg",
+      "role": "Deputy Manager - Software Developer",
+      "period": "Jan 2022 - Sep 2024",
+      "location": "India",
+      "description": "Led real-time AI features for JioMeet — noise suppression, speech translation and transcription across 5 Indian languages, generative-AI virtual backgrounds, and the C++ WebRTC media engine (Linux/Android).",
+      "current": false
+    },
+    {
+      "company": "HARMAN International",
+      "logo": "images/harman_international_logo.jpeg",
+      "role": "Associate Software Engineer - Product Development",
+      "period": "Dec 2020 - Dec 2021",
+      "location": "India",
+      "description": "Built real-time data visualisation for an embedded healthcare device without GPU acceleration. Won the All-India AI Hackathon with a face and voice authentication system.",
+      "current": false
+    },
+    {
+      "company": "DXC Technology",
+      "logo": "images/dxctechnology_logo.jpeg",
+      "role": "Associate Professional Software Engineer",
+      "period": "Jul 2020 - Nov 2020",
+      "location": "India",
+      "description": "Designed and implemented predictive analytics dashboards on Salesforce Einstein.",
+      "current": false
+    },
+    {
+      "company": "ISRO",
+      "logo": "images/isro_logo.jpeg",
+      "role": "Research Intern",
+      "period": "Jun 2019 - Sep 2019",
+      "location": "India",
+      "description": "Researched semantic segmentation of satellite imagery using deep-learning models on a supercomputer. Presented at the All India ISRO Conference.",
+      "current": false
+    }
+  ],
+  "education": [
+    {
+      "institution": "Indian Institute of Technology, Jodhpur",
+      "logo": "images/iitj_logo.jpeg",
+      "degree": "MTech — Artificial Intelligence",
+      "period": "2024 - 2026",
+      "location": "Jodhpur, India",
+      "description": "Postgraduate specialisation in Artificial Intelligence at IIT Jodhpur, one of India's premier technology institutes.",
+      "gpa": ""
+    },
+    {
+      "institution": "Rajiv Gandhi Proudyogiki Vishwavidyalaya",
+      "logo": "images/rgpv_logo.jpeg",
+      "degree": "BE — Computer Science and Engineering",
+      "period": "2016 - 2020",
+      "location": "India",
+      "description": "Undergraduate degree in Computer Science and Engineering.",
+      "gpa": ""
+    }
+  ],
+  "researchAreas": [
+    "EdgeAI",
+    "ML Compilers",
+    "Model Compression",
+    "Neural Architecture Search",
+    "Generative AI",
+    "Computer Vision",
+    "ONNX Graph Optimisation",
+    "3D Point Cloud Processing",
+    "Satellite Image Segmentation"
+  ],
+  "skills": {
+    "categories": [
+      {
+        "name": "Machine Learning",
+        "icon": "brain",
+        "items": ["Model Development", "Training", "Deployment", "Inference Optimization", "Computer Vision"]
+      },
+      {
+        "name": "Model Optimisation",
+        "icon": "brain",
+        "items": ["Model Compression", "Structured Pruning", "Neural Architecture Search", "Quantization", "Knowledge Distillation", "ONNX Graph Surgery"]
+      },
+      {
+        "name": "LLM & Agents",
+        "icon": "brain",
+        "items": ["LLM Multi-Agent Systems", "Agent Memory & Skills", "Generative AI", "Retrieval"]
+      },
+      {
+        "name": "ML Compilers & Runtimes",
+        "icon": "chip",
+        "items": ["ONNX", "ONNX Runtime", "Vitis AI EP", "Operator Fusion", "Graph Partitioning", "TensorRT"]
+      },
+      {
+        "name": "Edge & Hardware",
+        "icon": "eye",
+        "items": ["Ryzen AI (XDNA) NPU", "NVIDIA Jetson Orin Nano", "CUDA", "Real-time Embedded C++", "AMD Vitis AI"]
+      },
+      {
+        "name": "Languages & Frameworks",
+        "icon": "code",
+        "items": ["C++", "Python", "Bash", "PyTorch", "TensorFlow", "OpenCV", "onnx2torch", "WebRTC"]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "h3dnas",
+      "name": "H3DNAS",
+      "tagline": "Hardware-Aware ONNX-Native 3D Point Cloud Compression",
+      "description": "Source-code-free NAS that compresses 3D point-cloud models directly on ONNX graphs. Achieves up to 65% parameter reduction and 1.99x speedup on NVIDIA Jetson Orin Nano — no access to original training code required.",
+      "tech": ["Python", "ONNX", "PyTorch", "NAS", "3D Point Clouds", "Jetson Orin Nano"],
+      "links": { "github": "https://github.com/ClarityLab-Org/h3dnas", "arxiv": "https://arxiv.org/abs/2609.02684" },
+      "highlight": true,
+      "status": "Preprint"
+    },
+    {
+      "id": "naskit",
+      "name": "naskit",
+      "tagline": "Open-source Neural Architecture Search toolkit",
+      "description": "An open-source NAS toolkit providing reusable building blocks for neural architecture search research and experimentation.",
+      "tech": ["Python", "NAS", "ML Research"],
+      "links": { "github": "https://github.com/anchitmulye/naskit" },
+      "highlight": true,
+      "status": "Open Source"
+    },
+    {
+      "id": "cpp-ml",
+      "name": "C++ ML Framework",
+      "tagline": "Header-based C++ machine learning framework",
+      "description": "A header-only C++ framework implementing core machine learning training and inference functionality — designed for embedded and resource-constrained environments.",
+      "tech": ["C++", "Python", "Embedded ML"],
+      "links": {},
+      "highlight": false,
+      "status": "Project"
+    }
+  ],
+  "publications": [
+    {
+      "title": "H3DNAS: Hardware-Aware ONNX-Native 3D Point Cloud Model Compression",
+      "year": "2026",
+      "authors": "Anchit Mulye, Rhythm Baghel, Sujay Kumar Ingle, Hardik Jain",
+      "venue": "arXiv:2609.02684 (preprint)",
+      "citations": 0,
+      "links": { "arxiv": "https://arxiv.org/abs/2609.02684" }
+    },
+    {
+      "title": "Recognition of Indian Sign Language Using ORB with Bag of Visual Words by Kinect Sensor",
+      "year": "2020",
+      "authors": "Jayesh Gangrade, Jyoti Bharti, Anchit Mulye",
+      "venue": "IETE Journal of Research",
+      "citations": 35,
+      "links": { "doi": "https://doi.org/10.1080/03772063.2020.1739569" }
+    },
+    {
+      "title": "Successive Image Recognition with Canny Edge Detection and ORB on RGB and Depth Images",
+      "year": "2018",
+      "authors": "Anchit Mulye, Jayesh Gangrade",
+      "venue": "IJARIIE",
+      "citations": 0,
+      "links": {"ijariie": "https://ijariie.com/manuscript/9078"}
+    }
+  ],
+  "contact": {
+    "heading": "Let's build something together",
+    "sub": "Open to research collaborations, EdgeAI projects, and senior engineering roles.",
+    "email": "anchitmulye1005@gmail.com",
+    "links": [
+      { "label": "GitHub",        "href": "https://github.com/anchitmulye",                                              "icon": "github" },
+      { "label": "LinkedIn",      "href": "https://linkedin.com/in/anchitmulye",                                          "icon": "linkedin" },
+      { "label": "Google Scholar","href": "http://scholar.google.co.in/citations?user=yIikODQAAAAJ&hl=en",                "icon": "scholar" }
+    ]
+  }
+}
