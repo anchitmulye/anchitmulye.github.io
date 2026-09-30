@@ -43,7 +43,6 @@ const ICONS = {
       const updated = data.footer?.lastUpdated ? ` &mdash; Updated ${data.footer.lastUpdated} ` : '';
       const copy = data.footer?.copy ? `${data.footer.copy} &mdash; ` : '';
       footerCopy.innerHTML = `${copy}${year}${updated}`;
-      document.getElementById('year').textContent = new Date().getFullYear();
     }
     startTyping(data.hero.roles);
   } catch (e) {
